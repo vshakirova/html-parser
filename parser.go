@@ -20,10 +20,6 @@ func Parser(r io.Reader) (links []Link) {
 		links = append(links, buildLinks(node))
 	}
 
-	for _, link := range links {
-		fmt.Println(link.Href, link.Text)
-	}
-
 	return
 }
 
