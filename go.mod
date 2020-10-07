@@ -1,4 +1,4 @@
-module html-parser
+module github.com/vshakirova/html-parser
 
 go 1.14
 
